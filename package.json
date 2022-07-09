@@ -1,0 +1,19 @@
+{
+  "name": "ts-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "devDependencies": {
+    "@vue/composition-api": "^1.7.0",
+    "@vue/compiler-sfc": "~3.0.0",
+    "rollup": "^2.76.0",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "rollup-plugin-vue": "^6.0.0",
+    "typescript": "^4.7.4",
+    "vue": "~2.6.0",
+    "vue-template-compiler": "~2.6.0"
+  }
+}
